@@ -1,1 +1,13 @@
-num=13
+     num=13
+     count=0;
+         for(a=1;a<=num;a++){
+             if(num%a==0){
+                 count++
+             }
+         }
+         if(count==2){
+             console.log("Yes");
+         }
+         else{
+             console.log("No");
+         }
